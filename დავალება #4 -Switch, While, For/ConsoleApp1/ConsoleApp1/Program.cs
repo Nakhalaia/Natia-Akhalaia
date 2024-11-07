@@ -40,25 +40,36 @@
 
 using System.Transactions;
 
+//{
+//    int total = 0;
+//    int number;
+
+//    Console.WriteLine("enter positive number to total. enter negative number to stop");
+//    while (true)
+//    {
+//        Console.WriteLine("enter a number: ");
+//        number = int.Parse(Console.ReadLine());
+
+//        if (number < 0)
+//        {
+//            break;
+//        }
+//        total += number;
+//        Console.WriteLine("The total sum is: " + total);
+
+//    }
+
+
+Console.WriteLine("sheikvane ricxvi");
+int number = int.Parse(Console.ReadLine());
+for (int i = 1; i < 10; i++)
 {
-    int total = 0;
-    int number;
-
-    Console.WriteLine("enter positive number to total. enter negative number to stop");
-    while (true)
-    {
-        Console.WriteLine("enter a number: ");
-        number = int.Parse(Console.ReadLine());
-        
-        if (number < 0)
-        {
-            break;
-        }
-        total += number;
-        Console.WriteLine("The total sum is: " + total);
-
-    }
-
-
-
+    Console.WriteLine(number + " x " + i + " = " + (number * i));
 }
+
+
+
+
+
+
+
